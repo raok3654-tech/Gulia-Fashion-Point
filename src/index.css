@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-bento-bg: #F8F7F4;
+  --color-bento-text: #1A1A1A;
+  --color-bento-card: #FFFFFF;
+  --color-bento-accent: #E8D5C8;
+  --color-bento-secondary: #D4C4B7;
+  --color-bento-muted: #F3F3EF;
+  --color-bento-border: #E5E5E1;
+}
+
+@layer base {
+  body {
+    @apply bg-bento-bg text-bento-text font-sans selection:bg-bento-secondary selection:text-bento-text;
+  }
+}
+

@@ -1,0 +1,80 @@
+import { Category, Product } from './types';
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: 'p1',
+    name: 'Premium Cotton Essential Tee',
+    description: 'Crafted from 100% long-staple cotton for a smooth, substantial feel. This essential tee features a refined fit that works on its own or as a foundation piece.',
+    price: 1499,
+    category: Category.Men,
+    subCategory: 'T-shirts',
+    images: ['https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=800'],
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['White', 'Navy', 'Olive'],
+    stock: 120,
+    rating: 4.8,
+    reviewsCount: 156,
+    isFeatured: true
+  },
+  {
+    id: 'p2',
+    name: 'Structured Linen Blend Dress',
+    description: 'A contemporary take on a classic silhouette. This dress combines the breathability of linen with the soft structure of organic cotton.',
+    price: 3499,
+    category: Category.Women,
+    subCategory: 'Dresses',
+    images: ['https://images.unsplash.com/photo-1495385794356-15371f348c31?auto=format&fit=crop&q=80&w=800'],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Beige', 'Sage', 'Terracotta'],
+    stock: 45,
+    rating: 4.9,
+    reviewsCount: 89,
+    isFeatured: true,
+    discount: 15
+  },
+  {
+    id: 'p3',
+    name: 'Heritage Knit Sneakers',
+    description: 'Lightweight performance meets street style. Our knit sneakers feature a recycled mesh upper and responsive cushioning for all-day comfort.',
+    price: 5999,
+    category: Category.Footwear,
+    subCategory: 'Sneakers',
+    images: ['https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800'],
+    sizes: ['7', '8', '9', '10', '11'],
+    colors: ['Obsidian', 'Chalk'],
+    stock: 30,
+    rating: 4.7,
+    reviewsCount: 210,
+    isFeatured: true
+  },
+  {
+    id: 'p4',
+    name: 'Minimalist Leather Weekender',
+    description: 'The ultimate travel companion. Made from premium full-grain leather that will develop a beautiful patina over time.',
+    price: 12999,
+    category: Category.Accessories,
+    subCategory: 'Bags',
+    images: ['https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&q=80&w=800'],
+    sizes: ['OS'],
+    colors: ['Cognac', 'Espresso'],
+    stock: 15,
+    rating: 5.0,
+    reviewsCount: 42,
+    isFeatured: true
+  },
+  {
+    id: 'p5',
+    name: 'Kids Organic Cotton Romper',
+    description: 'Ultra-soft organic cotton for delicate skin. Snap buttons for easy changes and a playful hand-drawn print.',
+    price: 999,
+    category: Category.Kids,
+    subCategory: 'Casual',
+    images: ['https://images.unsplash.com/photo-1519706347247-49341ceed7fe?auto=format&fit=crop&q=80&w=800'],
+    sizes: ['0-3M', '3-6M', '6-12M'],
+    colors: ['Sky', 'Blush'],
+    stock: 60,
+    rating: 4.8,
+    reviewsCount: 24,
+    isFeatured: false
+  }
+];

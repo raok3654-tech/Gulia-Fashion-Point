@@ -1,0 +1,13 @@
+{
+  "name": "Gulia Fashion Point",
+  "description": "A sophisticated global e-commerce platform for fashion and lifestyle, featuring localized pricing, international shipping, and a clean Amazon-inspired professional interface.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "E-commerce",
+    "Localization",
+    "Firebase Integration",
+    "Admin Dashboard"
+  ]
+}
